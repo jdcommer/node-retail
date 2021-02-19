@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## node-retail
 
-You can use the [editor on GitHub](https://github.com/jdcommer/node-retail/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+node-retail is an action server for the Rasa retial starter pack targetting the Node.js platform.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Run the action server
 
-### Markdown
+We won't be using the action server included in the starter package, but are building our own
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. yarn start:dev
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Setup the retail starter
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jdcommer/node-retail/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. checkout the retail starter pack
+2. modify the endpoints.yaml, replace the existing address with the the address of your node-retail server (defaults to `localhost:3000`)
+3. do NOT start the action server, we will start our own
+4. start duckling
+5. rasa shell
